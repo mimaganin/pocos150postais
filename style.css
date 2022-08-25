@@ -64,7 +64,7 @@ section {
 }
 
 .projeto-texto.first-block, .projeto-texto.second-block {
-    padding: 55px;
+    padding: 0px 55px 55px 55px;
     /* width: 100%; */
 }
 
@@ -215,7 +215,7 @@ button.btn-form {
 
   .vakinha-img {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-right: 50px;
   }
 
