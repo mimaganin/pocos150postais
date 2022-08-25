@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    font-family: 'Alata', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF5CC;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+ body::-webkit-scrollbar-thumb {
+    background-color:  #004AAD;
+    ;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+   color: #004AAD;
+   border: 1px solid ;  /* creates padding around scroll thumb */
+  }
+
+p, h1, li {
+   color: #004AAD;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.header-container {
+   max-width: 100%;
+}
+
+.header-container img {
+    max-width: 100%;
+}
+
+section {
+    max-width: 100%;
+}
+
+.projeto-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 30px 30px 50px 30px;
+}
+
+.projeto-texto.first-block {
+    padding-bottom: 20px;
+}
+
+.projeto-texto.second-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-projeto {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.img-projeto img {
+    max-width: 99%;
+}
+
+.img-projeto p {
+    writing-mode: vertical-rl;
+    font-size: 12px;
+}
+
+.etapas-container {
+    background-color: #FDE9A6;
+    padding-top: 30px;
+    max-width: 100%;
+    padding: 40px 30px 40px 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.formulario-container {
+    background-color: #004AAD;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.formulario-container h1, .formulario-container p {
+    color: white;
+}
+
+.form-img-container, .vakinha-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button.btn-form {
+    color: #004AAD;
+    background-color: #C9E265;
+  }
+
+  button.btn-form:hover {
+    color:   #6FBD4E;
+    background-color: #FFF5CC;
+  }
+
+  .vakinha-container {
+    background-color: #FFF5CC;
+    padding: 30px 30px 30px 30px;
+  }
+
+  .vakinha-container h1 {
+    padding: 20px;
+  }
+
+  button.btn-vakinha {
+    color: #004AAD;
+    background-color: #C9E265;
+  }
+
+  button.btn-vakinha:hover {
+    color:  #C9E265;
+    background-color: #004AAD;
+  }
+
+
+.receba-container {
+    padding-top: 30px;
+    max-width: 100%;
+    padding: 30px 30px 30px 30px;
+    background-color: #FDE9A6;
+}
+
+.receba-container h1 {
+    font-size: 30px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.cards-container img {
+    max-width: 100%;
+}
+
+.cards-container p {
+    max-width: 100%;
+    height: 50px;
+}
+
+.card-esquerda {
+    width: 30%;
+}
+
+.card-centro {
+    width: 30%;
+}
+
+.card-direita {
+    width: 30%;
+}
+
+
+.galeria-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 30px;
+    max-width: 100%;
+    padding: 30px 30px 30px 30px;
+}
+
+.galeria-container img {
+    width: 50%;
+}
+
+
+
