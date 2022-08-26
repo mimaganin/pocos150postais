@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: 0.1em;
+}
+
 body {
     font-family: 'Alata', sans-serif;
     margin: 0px;
@@ -23,6 +31,7 @@ body::-webkit-scrollbar {
     color: #004AAD;
     border: 1px solid; 
   }
+ 
 
 h1 {
     font-size: 55px;
@@ -274,7 +283,7 @@ button.btn-form {
     justify-content: center;
     align-content: center;
     gap: 20px;
-    /* width: 100%; */
+    cursor: pointer;
 }
 
 .cards-container img {
@@ -337,3 +346,10 @@ button.btn-form {
         align-items: center !important;
     }
 }
+
+ .hidden-xl {
+      display: none;
+ }
+
+
+

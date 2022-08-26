@@ -8,6 +8,7 @@
     <meta name="keywords" content="Poços de Caldas, Postais">
     <meta name="author" content="Milena Maganin">
     <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' media='screen and (min-width: 200px) and (max-width: 1039px)' href='/mobile.css' />
     <link rel="shortcut icon" type="image/x-icon" href="/assets/faviconx.ico">
     <title>Poços 150 anos, 150 postais</title>
 </head>
@@ -37,7 +38,8 @@
             </div>
             
             <div class="img-projeto">
-            <img src="assets/projeto1.png" alt="imagem em preto e branco com a mão de uma criança segurando uma lupa em cima de uma fotografia com outras crianças" />
+            <img class="hidden-sm" src="assets/projeto1.png" alt="imagem em preto e branco com a mão de uma criança segurando uma lupa em cima de uma fotografia com outras crianças" />
+            <img class="projeto-mobile-img hidden-xl" src="assets/projeto1-mobile.png" alt="imagem em preto e branco com a mão de uma criança segurando uma lupa em cima de uma fotografia com outras crianças" />
             <p>Foto: Ana Paula Silva Moura</p>
             </div>
 
@@ -51,16 +53,20 @@
                     Imagine só o que é para essas crianças da Zona Sul de Poços de Caldas, ver suas mensagens e 
                     fotografias ganhando o mundo!
                 </p>
+                <div class="img-projeto hidden-xl">
+                    <img src="assets/projeto2.png" alt="olhar de uma criança negra observando o quadro de uma fotografia com crianças, preso na parede" />
+                    <p>Foto: Ana Paula Silva Moura</p>
+                </div>
                 <p>
                     Através desse projeto, queremos mostrar às crianças o quanto cada uma delas é importante e que 
                     os sonhos podem ser realizados.
                 </p>
                 </div>
 
-            <div class="img-projeto">
+            <div class="img-projeto hidden-sm">
                 <img src="assets/projeto2.png" alt="olhar de uma criança negra observando o quadro de uma fotografia com crianças, preso na parede" />
                 <p>Foto: Ana Paula Silva Moura</p>
-                </div>
+            </div>
         </div>
 
         <div class="etapas-container">
@@ -107,11 +113,11 @@
         </div>
 
         <div class="formulario-container">
-            <h1>
+            <h1 id="receba">
                 PARTICIPE E FAÇA O PROJETO ACONTECER!
             </h1>
             <div class="form-img-container">
-                <div class="form-img">
+                <div class="form-img hidden-sm">
                     <img src="/assets/form-img.png" alt="">
                 </div>
                 <div class="form-text">
@@ -131,7 +137,10 @@
             <div class="vakinha-img-container">
                 <div class="vakinha-text">
                     <p>Colabore para a impressão e envio dos postais:</p>
-                    <a class="button-vakinha-link" href="https://www.vakinha.com.br/3034761" target="_blank">
+                    <div class="vakinha-img hidden-xl" onclick="location.href='https://www.vakinha.com.br/vaquinha/pocos-150-anos-150-postais'">
+                        <img src="/assets/vakinha.png" alt="">
+                    </div>
+                    <a class="button-vakinha-link hidden-sm" href="https://www.vakinha.com.br/3034761" target="_blank">
                         <button class="btn-vakinha" type="button">Quero apoiar o projeto</button>
                     </a>
                     <p>Gastos previstos:<br>
@@ -141,8 +150,11 @@
                         R$ 200 - despesas eventuais (se não forem utilizadas serão revertidas em livros infantis para uso coletivo)<br>
                         <strong>Custo total: R$ 1124</strong>
                     </p>
+                    <a class="button-vakinha-link hidden-xl" href="https://www.vakinha.com.br/3034761" target="_blank">
+                        <button class="btn-vakinha" type="button">Quero apoiar o projeto</button>
+                    </a>
                 </div>
-                <div class="vakinha-img" onclick="location.href='https://www.vakinha.com.br/vaquinha/pocos-150-anos-150-postais'">
+                <div class="vakinha-img hidden-sm" onclick="location.href='https://www.vakinha.com.br/vaquinha/pocos-150-anos-150-postais'">
                     <img src="/assets/vakinha.png" alt="">
                 </div>
             </div>
@@ -153,7 +165,7 @@
                 RECEBA UM DOS 150 POSTAIS!
             </h1>
 
-            <div class="cards-container">
+            <div class="cards-container" onclick="location.href='#receba'">
                 
                 <div class="card-esquerda">
                     <p>Receba em casa um postal dos 150 anos de Poços de Caldas</p>
@@ -177,16 +189,6 @@
                 </div>
             </div>
         </div>
-        
-        
-
-        <!-- <div class="galeria-container">
-            <h1>
-                Vamos postar as fotos aqui no site, mostrando para as crianças todos os horizontes de seus olhares, de Poços de Caldas para o mundo!
-            </h1>
-            <img src="assets/galeria.jpeg" alt="" />
-        </div> -->
-
     </section>
     
 </body>
