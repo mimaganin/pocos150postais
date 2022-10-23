@@ -80,7 +80,7 @@ img.projeto-mobile-img {
 }
 
 .etapas-text li {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
 }
 
@@ -151,6 +151,11 @@ button {
 }
 
 .btn-vakinha {
+    font-size: 20px;
+    padding: 20px 29px;
+}
+
+.btn-form {
     font-size: 20px;
     padding: 20px 29px;
 }
