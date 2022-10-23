@@ -41,7 +41,7 @@ h1 {
 
 p, li {
    color: #004AAD;
-   font-size: 25px;
+   font-size: 22px;
 }
 
 img, button {
@@ -118,7 +118,6 @@ section {
 }
 
 .etapas-container {
-    background-color: #FDE9A6;
     padding-top: 30px;
     padding: 40px 30px 70px 30px;
     display: flex;
@@ -134,7 +133,7 @@ section {
 }
 
 .etapas-text li {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .etapasimg-container {
@@ -170,14 +169,16 @@ section {
     gap: 10px;
 }
 
+
+
 .form-img {
-    width: 50%;
+    width: 80%;
     padding-left: 55px;
 }
 
 .form-img img {
     width: 90%;
-    border-radius: 0px;
+    border-radius: 25px;
     box-shadow: none;
 }
 
@@ -201,7 +202,7 @@ a {
     text-align: center;
     display: inline-block;
     font-family: 'Alata', sans-serif;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: bold;
     margin: 4px 2px;
     transition-duration: 0.4s;
@@ -229,7 +230,7 @@ button.btn-form {
   }
 
   .vakinha-container {
-    background-color: #FFF5CC;
+    background-color: #FDE9A6;
     padding: 30px 30px 30px 30px;
   }
 
@@ -237,16 +238,20 @@ button.btn-form {
     padding-left: 55px;
     padding-right: 30px;
     width: 65%;
-    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
   }
 
   .vakinha-text p {
-    font-size: 30px;
+    font-size: 22px;
+    text-align: center;
   }
 
   .vakinha-img {
-    width: 50%;
-    padding-top: 150px;
+    width: 45%;
+    padding-top: 0px;
     padding-right: 50px;
     cursor: pointer;
   }
@@ -264,7 +269,6 @@ button.btn-form {
     color:  #C9E265;
     background-color: #004AAD;
   }
-
 
 .receba-container {
     padding-top: 30px;
@@ -293,7 +297,7 @@ button.btn-form {
 .cards-container p {
     width: 100%;
     height: 70px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     text-align: center;
 }
@@ -349,6 +353,35 @@ button.btn-form {
 
  .hidden-xl {
       display: none;
+ }
+
+ .footer {
+    width: 100%;
+ }
+
+ .rodape-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004AAD;
+    gap: 20px;
+    padding: 0px 20px 0px 20px;
+ }
+
+ .instagram {
+    display: flex;
+    gap: 8px;
+ }
+ 
+ .instagram img {
+    box-shadow: none;
+    border-radius: 0px;
+    width: 8%;
+ }
+
+ .rodape-wrapper p {
+    color: white;
+    font-size: 18px;
  }
 
 
