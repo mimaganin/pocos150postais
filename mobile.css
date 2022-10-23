@@ -14,7 +14,7 @@ h1 {
 
 p, li {
    color: #004AAD;
-   font-size: 20px;
+   font-size: 16px;
 }
 
 .projeto-container {
@@ -110,6 +110,15 @@ img.projeto-mobile-img {
     padding: 30px 15px 30px 15px;
 }
 
+.form-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-img {
+    padding-left: 20px;
+}
+
 button {
     font-size: 26px;
 }
@@ -130,13 +139,13 @@ button {
 }
 
 .vakinha-text p {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 30px;
    
 }
 
 .vakinha-img {
-    width: 100%;
+    width: 90%;
     padding-top: 15px;
     padding-right: 0px;
 }
@@ -172,9 +181,16 @@ button {
 
 .card-esquerda, .card-centro, .card-direita {
     width: 90%;
-   
 }
 
 .card-esquerda, .card-centro, .card-direita p {
     padding: 0px;
 }
+
+.instagram img, .facebook img {
+    width: 20%;
+ }
+
+ .instagram p, .facebook p {
+    font-size: 16px;
+ }
